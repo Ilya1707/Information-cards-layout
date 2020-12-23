@@ -94,11 +94,11 @@ main {
 =================================================================== */
 .section{
     display: inline-block;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), no-repeat center url("../img/background.png") ;
-    margin: 0 auto;
     width: 1400px;
     height: 326px;
     padding: 1px 0px 50px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), no-repeat center url("../img/background.png") ;   
 }
 
 .header--title-section {
@@ -109,26 +109,30 @@ main {
 }
 .button{
     display: block;
-    margin:0px auto;    
-    background:  rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
-    border: 1px solid;
     width: 130px;
     height: 40px;
+    margin:0px auto; 
     font-weight: 600;
+    background:  rgba(255, 255, 255, 0);
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+   
+    
+    
 }
 /* Footer 
 ==================================================== */
 .footer{
-    background: black;
     padding: 20px 0 20px;
+    background: black;
+    
     
 }
 .social-icon{
     display: block;
-    background: no-repeat center url("../img/icons.png");
-    margin: 0 auto;
     width: 320px;
+    margin: 0 auto;
+    background: no-repeat center url("../img/icons.png"); 
 }
 .social-icons{
     display: inline-block;
@@ -136,8 +140,8 @@ main {
 }
 .social-icons a{
     display: block;
-    height: 30px;
     width: 40px;
+    height: 30px;
 }
 .q{
     display: inline-block;
